@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adivinanza Viaje</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="adivinanza">
+    <p>varias veces a la playa<br>
+    una sola a la ciudad<br>
+    por las pistas que te he dado<br>
+    ¿Sabes lo que soy ya?</p>
+  </div>
+
+  <form id="formulario">
+    <label for="respuestaInput">Tu respuesta:</label>
+    <input type="text" id="respuestaInput" required>
+    <button type="button" onclick="verificarRespuesta()">Verificar</button>
+  </form>
+
+  <div id="respuesta" class="oculto">¡Has acertado! <a href="adivinanza2.html">Siguiente adivinanza</a></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

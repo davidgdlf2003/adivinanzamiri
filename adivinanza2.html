@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adivinanza Toledo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="adivinanza">
+    <p>que ciudad sere<br>
+    a la que esta vez ireis<br>
+    aprovechando un concierto<br>
+    vosotros os quedareis</p>
+  </div>
+
+  <form id="formulario">
+    <label for="respuestaInput">Tu respuesta:</label>
+    <input type="text" id="respuestaInput" required>
+    <button type="button" onclick="verificarRespuesta()">Verificar</button>
+  </form>
+
+  <div id="respuesta" class="oculto">¡Has acertado! <a href="adivinanza3.html">Siguiente adivinanza</a></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

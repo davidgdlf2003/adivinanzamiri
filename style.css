@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  #adivinanza {
+    margin-bottom: 20px;
+    background-color: #ffcc66; /* Amarillo-naranja claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  #respuesta {
+    margin-top: 20px;
+    color: #ff6600; /* Naranja oscuro */
+    font-weight: bold;
+  }
+  
+  #respuesta a {
+    color: #ff6600; /* Naranja oscuro */
+    text-decoration: none;
+  }
+  
+  #respuesta a:hover {
+    text-decoration: underline;
+  }
+  
+  .oculto {
+    display: none;
+  }
+  
+  #formulario label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ff6600; /* Naranja oscuro */
+  }
+  
+  #formulario input {
+    padding: 8px;
+    width: 100%; /* Hacer que el ancho sea 100% para ser más receptivo */
+    box-sizing: border-box; /* Incluir el relleno en el ancho total */
+    border: 1px solid #ffcc66; /* Amarillo-naranja claro */
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #formulario button {
+    padding: 10px 20px;
+    background-color: #ff6600; /* Naranja oscuro */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #formulario button:hover {
+    background-color: #cc5200; /* Naranja más oscuro */
+  }
+  
+  /* Reglas de medios para pantallas pequeñas (como iPhone 15 Pro) */
+  @media only screen and (max-width: 768px) {
+    #formulario input {
+      width: 100%; /* Ajustar el ancho para pantallas pequeñas */
+    }
+  }
+  
